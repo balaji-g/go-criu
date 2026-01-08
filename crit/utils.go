@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/fdinfo"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/pipe"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/regfile"
-	sk_unix "github.com/checkpoint-restore/go-criu/v8/crit/images/sk-unix"
-	"github.com/checkpoint-restore/go-criu/v8/magic"
+	"github.com/balaji-g/go-criu/v8/crit/images/fdinfo"
+	"github.com/balaji-g/go-criu/v8/crit/images/pipe"
+	"github.com/balaji-g/go-criu/v8/crit/images/regfile"
+	sk_unix "github.com/balaji-g/go-criu/v8/crit/images/sk-unix"
+	"github.com/balaji-g/go-criu/v8/magic"
 	"google.golang.org/protobuf/proto"
 )
 

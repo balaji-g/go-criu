@@ -9,9 +9,9 @@
 package sk_netlink
 
 import (
-	fown "github.com/checkpoint-restore/go-criu/v8/crit/images/fown"
-	_ "github.com/checkpoint-restore/go-criu/v8/crit/images/opts"
-	sk_opts "github.com/checkpoint-restore/go-criu/v8/crit/images/sk-opts"
+	fown "github.com/balaji-g/go-criu/v8/crit/images/fown"
+	_ "github.com/balaji-g/go-criu/v8/crit/images/opts"
+	sk_opts "github.com/balaji-g/go-criu/v8/crit/images/sk-opts"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

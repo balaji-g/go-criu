@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strconv"
 
-	criu_core "github.com/checkpoint-restore/go-criu/v8/crit/images/criu-core"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/fdinfo"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/fs"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/mm"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/pagemap"
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/pstree"
+	criu_core "github.com/balaji-g/go-criu/v8/crit/images/criu-core"
+	"github.com/balaji-g/go-criu/v8/crit/images/fdinfo"
+	"github.com/balaji-g/go-criu/v8/crit/images/fs"
+	"github.com/balaji-g/go-criu/v8/crit/images/mm"
+	"github.com/balaji-g/go-criu/v8/crit/images/pagemap"
+	"github.com/balaji-g/go-criu/v8/crit/images/pstree"
 )
 
 // CRIU uses 4 task states to represent the state of a process. A process can be
