@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	ipc_msg "github.com/checkpoint-restore/go-criu/v8/crit/images/ipc-msg"
+	ipc_msg "github.com/balaji-g/go-criu/v8/crit/images/ipc-msg"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

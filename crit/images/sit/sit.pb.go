@@ -9,7 +9,7 @@
 package sit
 
 import (
-	_ "github.com/checkpoint-restore/go-criu/v8/crit/images/opts"
+	_ "github.com/balaji-g/go-criu/v8/crit/images/opts"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

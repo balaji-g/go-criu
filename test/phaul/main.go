@@ -7,9 +7,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/checkpoint-restore/go-criu/v8"
-	"github.com/checkpoint-restore/go-criu/v8/phaul"
-	"github.com/checkpoint-restore/go-criu/v8/rpc"
+	"github.com/balaji-g/go-criu/v8"
+	"github.com/balaji-g/go-criu/v8/phaul"
+	"github.com/balaji-g/go-criu/v8/rpc"
 	"google.golang.org/protobuf/proto"
 )
 

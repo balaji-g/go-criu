@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/checkpoint-restore/go-criu/v8/crit/images/pstree"
+	"github.com/balaji-g/go-criu/v8/crit/images/pstree"
 )
 
 const (

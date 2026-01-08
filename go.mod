@@ -1,4 +1,4 @@
-module github.com/checkpoint-restore/go-criu/v8
+module github.com/balaji-g/go-criu/v8
 
 go 1.24.0
 

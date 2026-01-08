@@ -9,9 +9,9 @@
 package fsnotify
 
 import (
-	fh "github.com/checkpoint-restore/go-criu/v8/crit/images/fh"
-	fown "github.com/checkpoint-restore/go-criu/v8/crit/images/fown"
-	_ "github.com/checkpoint-restore/go-criu/v8/crit/images/opts"
+	fh "github.com/balaji-g/go-criu/v8/crit/images/fh"
+	fown "github.com/balaji-g/go-criu/v8/crit/images/fown"
+	_ "github.com/balaji-g/go-criu/v8/crit/images/opts"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

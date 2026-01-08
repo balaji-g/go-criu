@@ -1,7 +1,7 @@
 package phaul
 
 import (
-	"github.com/checkpoint-restore/go-criu/v8"
+	"github.com/balaji-g/go-criu/v8"
 )
 
 // Config is the configuration which is passed around
