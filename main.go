@@ -78,16 +78,21 @@ func (c *Criu) Cleanup() error {
 
 func (c *Criu) sendAndRecv(reqB []byte) ([]byte, int, error) {
 	cln := c.swrkSk
-	_, err := cln.Write(reqB)
+	fmt.Printf("[go-criu DEBUG] sendAndRecv: sending %d bytes\n", len(reqB))
+	n, err := cln.Write(reqB)
 	if err != nil {
+		fmt.Printf("[go-criu DEBUG] sendAndRecv: write error: %v\n", err)
 		return nil, 0, err
 	}
+	fmt.Printf("[go-criu DEBUG] sendAndRecv: wrote %d bytes, waiting for response...\n", n)
 
 	respB := make([]byte, 2*4096)
-	n, err := cln.Read(respB)
+	n, err = cln.Read(respB)
 	if err != nil {
+		fmt.Printf("[go-criu DEBUG] sendAndRecv: read error: %v\n", err)
 		return nil, 0, err
 	}
+	fmt.Printf("[go-criu DEBUG] sendAndRecv: received %d bytes\n", n)
 
 	return respB, n, nil
 }
