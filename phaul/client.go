@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/balaji-g/go-criu/v8"
-	"github.com/balaji-g/go-criu/v8/crit"
-	"github.com/balaji-g/go-criu/v8/crit/images/stats"
-	"github.com/balaji-g/go-criu/v8/rpc"
+	"github.com/balajinvda/go-criu/v8"
+	"github.com/balajinvda/go-criu/v8/crit"
+	"github.com/balajinvda/go-criu/v8/crit/images/stats"
+	"github.com/balajinvda/go-criu/v8/rpc"
 	"google.golang.org/protobuf/proto"
 )
 

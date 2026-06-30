@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/balaji-g/go-criu/v8"
-	"github.com/balaji-g/go-criu/v8/rpc"
+	"github.com/balajinvda/go-criu/v8"
+	"github.com/balajinvda/go-criu/v8/rpc"
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
 )

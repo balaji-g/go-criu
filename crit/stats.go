@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/balaji-g/go-criu/v8/crit/images/stats"
+	"github.com/balajinvda/go-criu/v8/crit/images/stats"
 )
 
 const (

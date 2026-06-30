@@ -9,11 +9,11 @@
 package netdev
 
 import (
-	macvlan "github.com/balaji-g/go-criu/v8/crit/images/macvlan"
-	_ "github.com/balaji-g/go-criu/v8/crit/images/opts"
-	sit "github.com/balaji-g/go-criu/v8/crit/images/sit"
-	sysctl "github.com/balaji-g/go-criu/v8/crit/images/sysctl"
-	tun "github.com/balaji-g/go-criu/v8/crit/images/tun"
+	macvlan "github.com/balajinvda/go-criu/v8/crit/images/macvlan"
+	_ "github.com/balajinvda/go-criu/v8/crit/images/opts"
+	sit "github.com/balajinvda/go-criu/v8/crit/images/sit"
+	sysctl "github.com/balajinvda/go-criu/v8/crit/images/sysctl"
+	tun "github.com/balajinvda/go-criu/v8/crit/images/tun"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

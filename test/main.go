@@ -7,9 +7,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/balaji-g/go-criu/v8"
-	"github.com/balaji-g/go-criu/v8/rpc"
-	"github.com/balaji-g/go-criu/v8/utils"
+	"github.com/balajinvda/go-criu/v8"
+	"github.com/balajinvda/go-criu/v8/rpc"
+	"github.com/balajinvda/go-criu/v8/utils"
 	"google.golang.org/protobuf/proto"
 )
 

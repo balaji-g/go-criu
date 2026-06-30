@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	ghost_file "github.com/balaji-g/go-criu/v8/crit/images/ghost-file"
-	"github.com/balaji-g/go-criu/v8/crit/images/pagemap"
+	ghost_file "github.com/balajinvda/go-criu/v8/crit/images/ghost-file"
+	"github.com/balajinvda/go-criu/v8/crit/images/pagemap"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

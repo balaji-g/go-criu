@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/balaji-g/go-criu/v8/rpc"
+	"github.com/balajinvda/go-criu/v8/rpc"
 	"google.golang.org/protobuf/proto"
 )
 

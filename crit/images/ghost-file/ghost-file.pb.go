@@ -9,8 +9,8 @@
 package ghost_file
 
 import (
-	_ "github.com/balaji-g/go-criu/v8/crit/images/opts"
-	time "github.com/balaji-g/go-criu/v8/crit/images/time"
+	_ "github.com/balajinvda/go-criu/v8/crit/images/opts"
+	time "github.com/balajinvda/go-criu/v8/crit/images/time"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

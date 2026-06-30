@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/balaji-g/go-criu/v8/crit"
-	"github.com/balaji-g/go-criu/v8/crit/cli"
-	"github.com/balaji-g/go-criu/v8/crit/images/pstree"
+	"github.com/balajinvda/go-criu/v8/crit"
+	"github.com/balajinvda/go-criu/v8/crit/cli"
+	"github.com/balajinvda/go-criu/v8/crit/images/pstree"
 )
 
 const loopTestImgDir = "test-imgs/loop"

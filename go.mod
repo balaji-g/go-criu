@@ -1,16 +1,16 @@
-module github.com/balaji-g/go-criu/v8
+module github.com/balajinvda/go-criu/v8
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
+	github.com/checkpoint-restore/go-criu/v8 v8.3.0
 	github.com/spf13/cobra v1.10.2
-	golang.org/x/sys v0.41.0
+	golang.org/x/sys v0.46.0
 	google.golang.org/protobuf v1.36.11
 )
 
 require (
+	github.com/aperturerobotics/protobuf-go-lite v0.14.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 )
